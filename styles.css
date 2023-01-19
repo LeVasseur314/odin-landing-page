@@ -1,0 +1,65 @@
+:root {
+    --main-blue: #3882F6;
+    --main-dark: #1F2937;
+    --main-light: #e5e7eb;
+    --main-white: #f9faf8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 40vw;
+}
+
+/* Nav bar */
+
+#navigation {
+    width: 100%;
+    background-color: var(--main-dark);
+    color: var(--main-light);
+    position: fixed;
+}
+
+.nav-head {
+    width: 40vw;
+    display: inline-block;
+    position: relative;
+    left: 5vw;
+}
+
+
+.nav {
+    width: 40vw;
+    display: inline-block;
+    position: relative;
+    left: 5vw;
+}
+
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.navlist a {
+    display: block;
+    padding: 2rem;
+}
+
+/* Welcome section */
+
+#header {
+    padding-top: 5rem;
+}
+
